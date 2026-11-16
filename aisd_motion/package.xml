@@ -3,9 +3,12 @@
 <package format="3">
   <name>aisd_motion</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Motion package for Create3 hand tracking</description>
   <maintainer email="aisd@todo.todo">aisd</maintainer>
-  <license>TODO: License declaration</license>
+  <license>None</license>
+
+  <depend>rclpy</depend>
+  <depend>aisd_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
